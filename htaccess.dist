@@ -11,13 +11,6 @@
     Satisfy All
 </Files>
 
-## Deny directory access
-<LocationMatch "/(data|conf|bin|inc)/">
-	Order allow,deny
-	Deny from all
-	Satisfy All
-</LocationMatch>
-
 ## Uncomment these rules if you want to have nice URLs using
 ## $conf['userewrite'] = 1 - not needed for rewrite mode 2
 RewriteEngine on
