@@ -1,0 +1,2 @@
+====== お知らせ一覧 ======
+{{blog>news?5&noform&nofooter}}

@@ -1,0 +1,177 @@
+/**
+ *
+ * main stylesheet file for Kosen Style.
+ *
+ * @link http://kosenconf.jp
+ * @author harukasan <miruca@me.com>
+ *
+ * Coding order (based on mozilla.org Base Styles):
+ *  + display
+ *  + list-style
+ *  + position
+ *  + float
+ *  + clear
+ *  + width, height
+ *  + margin, padding
+ *  + border
+ *  + background
+ *  + color
+ *  + font, text-decoration, text-align
+ *  + vertical-align
+ *  + white-space
+ *  + other text
+ *  + content
+ *
+ *
+ *  font-size (px : %)
+ *  thanks to cross x font: http://www.bornneet.com/crossxfont/index.html
+ *
+ *  10 px : 63%   | 11 px : 69%
+ *  12 px : 75%   | 13 px : 82%
+ *  14 px : 88%   | 15 px : 94%
+ *  16 px : 100%  | 17 px : 107%
+ *  18 px : 113%  | 19 px : 119%
+ *  20 px : 125%  | 22 px : 138%
+ *  24 px : 150%  | 26 px : 163%
+ *  28 px : 175%  | 30 px : 188%
+ *  32 px : 200%
+ *
+ */
+
+
+/*
+ * Reset CSS
+ */
+
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea,
+p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0;
+}
+
+table {
+	font-size: 100%;
+}
+
+/*****************
+ * Special Blocks
+ *****************/
+
+body {
+	font: 100% 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',"Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: __background__;
+	color: __text__;
+	text-align: center;
+}
+
+#container {
+	border-top: 10px #000 solid;
+	text-align: left;
+}
+
+/*** header ***/
+#header {
+	border-top: 1px #ccc solid;
+	background: #e9e9e9 url(images/header-background.png) repeat-x;
+	margin-bottom: 10px;
+}
+
+#header h1{
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+	border: 0;
+}
+
+#header .nav{
+	border-top: 1px #cdcdcd solid;
+}
+
+#header .nav ul {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#header .nav li {
+	padding: 4px 12px;
+	list-style: none;
+	float: left;
+	font-size: 88%;
+	border-left: 1px #cdcdcd solid;
+	border-right: 1px #cdcdcd solid;
+}
+
+#header .nav li:hover {
+	background: #eee;
+}
+
+#header .nav li a {
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#header .nav li a:hover {
+	text-decoration: underline;
+}
+
+
+/*** article ***/
+#main {
+	width: 900px;
+	margin: 0 auto 40px auto;
+	padding: 0;
+}
+
+/*** footer ***/
+#footer-wrap {
+	clear: both;
+	background: #dededf;
+	color: #333;
+}
+
+#footer {
+	width: 900px;
+	height: 120px;
+	margin: 0 auto;
+	padding: 0.5em 0;
+	font-size: 82%;
+	line-height: 1.455;
+}
+
+#footer #util {
+	margin-right: 0.5em;
+	float: left;
+	padding-right: 1em;
+	border-right: 3px #bbb solid;
+	font-weight: bold;
+}
+
+#footer #util ul {
+	margin: 0;
+	list-style: none;
+}
+
+#footer a {
+	color: #303030;
+	text-decoration: none;
+}
+
+#footer a:visited {
+	color: #3f3f3f;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+div.dokuwiki div.page {
+	width: 920px;
+	margin: 0 auto;
+}
+

@@ -1,0 +1,40 @@
+div.dokuwiki div.newentry_form {
+  clear: both;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+div.dokuwiki #blog__newentry_form input.edit {
+  width: 95%;
+}
+
+div.dokuwiki tr.draft,
+div.dokuwiki div.draft {
+  opacity: 0.5;
+}
+
+div.dokuwiki div.autoarchive_selector ul {
+  list-style-type: none;
+  clear: left;
+  margin: 0 0.5em 0 0;
+}
+
+div.dokuwiki div.autoarchive_selector ul div.li {
+  float: left;
+  margin: 0 1em 0 0;
+}
+
+div.dokuwiki div.autoarchive_selector ul ul {
+  float: left;
+  clear: none;
+}
+
+div.dokuwiki div.autoarchive_selector ul ul div.li {
+  margin: 0;
+}
+
+img.blog_archive_bar {
+  background-color: __border__;
+  width: 5px;
+  border: 0 none;
+}

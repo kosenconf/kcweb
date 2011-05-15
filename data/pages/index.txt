@@ -1,0 +1,40 @@
+====== 高専カンファレンス ======
+#toppage[
+
+#topnavi[
+俺がコウセンカンファレンサーだ！！
+]#
+
+#sidemenu[
+#comming[
+===== これから開催されるイベント =====
+---- datadic ----
+cols    : %pageid%, 日時, 場所
+max     : 10
+sort    : ^日時
+filter  : ステータス=参加者募集中
+----
+]#
+#end[
+===== 終了したイベント =====
+---- datadic ----
+cols    : %pageid%, 日時, 場所
+max     : 10
+sort    : ^日時
+filter  : ステータス=終了
+----
+]#]#
+
+#main[
+===== お知らせ =====
+{{blog>news?3&firstseconly&nofooter&nofollowlink}}
+#archive-link[[[./news-archive?first=3|これよりも古いニュース]]]#
+]#
+
+===== 高専カンファレンスコミュニティ =====
+  * [[comitties|高専カンファレンス事務局]]
+  * [[conf/index|高専カンファレンス一覧]]
+  * [[conf/0XXtest|テストカンファレンス]]
+
+
+]#

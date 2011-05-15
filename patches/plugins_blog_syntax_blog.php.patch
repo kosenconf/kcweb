@@ -1,0 +1,17 @@
+--- ../lib/plugins/blog/syntax/blog.php.original.php	2009-09-12 20:54:32.000000000 +0900
++++ ../lib/plugins/blog/syntax/blog.php	2011-05-15 20:14:26.000000000 +0900
+@@ -154,8 +154,12 @@
+             $renderer->doc .= '</div>'.DOKU_LF;
+             if ($clevel) $renderer->doc .= '<div class="level'.$clevel.'">'.DOKU_LF;
+ 
+-            // show older / newer entries links
+-            $renderer->doc .= $this->_browseEntriesLinks($more, $first, $num);
++            // BEGIN MODIFIED by harukasan
++            if (!in_array('nofollowlink', $flags)) {
++                // show older / newer entries links
++                $renderer->doc .= $this->_browseEntriesLinks($more, $first, $num);
++            }
++            // END MODIFIED
+ 
+             // show new entry form
+             if ($perm_create && $formpos == 'bottom') {
