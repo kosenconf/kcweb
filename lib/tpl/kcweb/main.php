@@ -46,7 +46,6 @@ if (!defined('DOKU_INC')) die(); // if dokuwiki is not loaded
         <li><a href="<?php echo wl(); ?>">トップページ</a></li>
       </ul>
     </div>
-    <br style="clear:both">
 	</div>
 	<!-- header end -->
 
